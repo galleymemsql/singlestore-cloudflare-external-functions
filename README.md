@@ -1,5 +1,7 @@
 # SingleStore External Functions + Cloudflare Workers
 
+**Attention**: The code in this repository is intended for experimental use only and is not fully tested, documented, or supported by SingleStore. Visit the [SingleStore Forums](https://www.singlestore.com/forum/) to ask questions about this repository.
+
 This is an example of using [CloudFlare Workers][cloudflare-workers] along with [SingleStore External Functions][docs-ef].
 
 SingleStore External Functions is a feature in SingleStore which allows the engine to send and receive rows to an external HTTP service during query execution. Using this feature, we can augment SingleStore's capabilities with new functionality.
